@@ -87,19 +87,19 @@ This repository contains the analysis and projections for the Battery Vehicle Fl
 
 ### Hybrid and BEV Registrations
 
-![Hybrid and BEV Registrations in Brazil (2015-2022)](img/6_5_brazil_EVregistration_2015_2022.pdf){#fig:6_5_brazil_EVregistration_2015_2022}
+![Hybrid and BEV Registrations in Brazil (2015-2022)](img/7_5_brazil_EVregistration_2015_2022.png){#fig:6_5_brazil_EVregistration_2015_2022}
 
 ### Registration Composition -- Brazil
 
-![Registration Composition in Brazil (2015-2022)](img/6_4_brazil_registration_2015_2022.pdf){#fig:6_4_brazil_registration_2015_2022}
+![Registration Composition in Brazil (2015-2022)](img/7_4_brazil_registration_2015_2022.png){#fig:6_4_brazil_registration_2015_2022}
 
 ### Light Vehicle Sales, 2022
 
-![Light Vehicle Sales in 2022](img/6_1_ev_sales2022.pdf){#fig:6_1_ev_sales2022}
+![Light Vehicle Sales in 2022](img/7_1_ev_sales2022.png){#fig:6_1_ev_sales2022}
 
 ### Sales History, Brazil
 
-![Sales Growth in Brazil](img/6_2_brazil_growth_sales.pdf){#fig:6_2_brazil_growth_sales}
+![Sales Growth in Brazil](img/7_2_brazil_growth_sales.png){#fig:6_2_brazil_growth_sales}
 
 ## Fleet Analysis
 
@@ -124,11 +124,11 @@ $$
 
 ### Survival Function (Scrapping)
 
-![Survival Function Example](img/6_6_exit_example.pdf){#fig:6_6_exit_example}
+![Survival Function Example](img/7_6_exit_example.png){#fig:6_6_exit_example}
 
 ### Modeling
 
-![Fleet Modeling](img/6_7_fleet_model.pdf){#fig:6_7_fleet_model}
+![Fleet Modeling](img/7_7_fleet_model.png){#fig:6_7_fleet_model}
 
 <!--
 *Note: The fleet modeled for 2022 is 41.4M.*
@@ -159,43 +159,43 @@ $$
 
 ### Base Scenario
 
-![Base Scenario Projections](img/4_1_premises_base.pdf){#fig:4_1_premises_base_scenario}
+![Base Scenario Projections](img/4_1_premises_base.png){#fig:4_1_premises_base_scenario}
 
 ### Global Convergence Scenario
 
-![Global Convergence Scenario Projections](img/5_1_premises_convergence.pdf){#fig:5_1_premises_base_convergence}
+![Global Convergence Scenario Projections](img/5_1_premises_convergence.png){#fig:5_1_premises_base_convergence}
 
 ### Biofuels Scenario
 
-![Biofuels Scenario Projections](img/7_1_premises_biofuels.pdf){#fig:7_1_premises_biofuels}
+![Biofuels Scenario Projections](img/6_1_premises_biofuels.png){#fig:7_1_premises_biofuels}
 
 ## Fleet 2050
 
 ### Base Scenario
 
-![Base Scenario Fleet](img/4_2_fleet_base.pdf){#fig:4_2_fleet_base}
+![Base Scenario Fleet](img/4_2_fleet_base.png){#fig:4_2_fleet_base}
 
 ### Global Convergence Scenario
 
-![Global Convergence Scenario Fleet](img/5_2_fleet_convergence.pdf){#fig:5_2_fleet_convergence}
+![Global Convergence Scenario Fleet](img/5_2_fleet_convergence.png){#fig:5_2_fleet_convergence}
 
 ### Biofuels Scenario
 
-![Biofuels Scenario Fleet](img/7_2_fleet_biofuels.pdf){#fig:7_2_fleet_biofuels}
+![Biofuels Scenario Fleet](img/6_2_fleet_biofuels.png){#fig:7_2_fleet_biofuels}
 
 ### Fleet Share by Scenario
 
 #### Base Scenario, Fleet Share
 
-![Base Scenario Fleet Share](img/4_4_fleet_base_selectedYears_Pct.pdf){#fig:4_3_fleet_base_selectedYears}
+![Base Scenario Fleet Share](img/4_4_fleet_base_selectedYears_Pct.png){#fig:4_3_fleet_base_selectedYears}
 
 #### Global Convergence Scenario, Fleet Share
 
-![Global Convergence Fleet Share](img/5_4_fleet_convergence_selectedYears_Pct.pdf){#fig:5_3_fleet_convergence_selectedYears}
+![Global Convergence Fleet Share](img/5_4_fleet_convergence_selectedYears_Pct.png){#fig:5_3_fleet_convergence_selectedYears}
 
 #### Biofuels Scenario, Fleet Share
 
-![Biofuels Fleet Share](img/7_4_fleet_biofuels_selectedYears_Pct.pdf){#fig:5_3_fleet_convergence_selectedYears}
+![Biofuels Fleet Share](img/6_4_fleet_biofuels_selectedYears_Pct.png){#fig:5_3_fleet_convergence_selectedYears}
 
 ## Conclusion
 
