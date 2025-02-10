@@ -3,7 +3,7 @@
     "path": "~/bev/code/0_master.R",
     "project_path": "code/0_master.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "477776338",
     "contents": "",
     "dirty": false,
     "created": 1738798408929.0,
@@ -12,8 +12,8 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "32,0",
-        "scrollLine": "15"
+        "cursorPosition": "22,19",
+        "scrollLine": "17"
     },
     "folds": "",
     "lastKnownWriteTime": 1690302376,
