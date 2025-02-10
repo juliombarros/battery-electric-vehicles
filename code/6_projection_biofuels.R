@@ -174,7 +174,7 @@ evol_shares %>%
   theme(axis.title.x = element_blank()) +
   scale_x_continuous(breaks = c(2015, 2020, 2025, 2030, 2035, 2040, 2045, 2050)) +
   scale_y_continuous(labels=scales::percent)
-ggsave(filename = '6_1_premises_biofuels.pdf', width = 15, height = 10, path = plot.dir)
+ggsave(filename = '6_1_premises_biofuels.png', width = 15, height = 10, path = plot.dir)
 
 
 # plot: fleet projection --------------------------------------------------
@@ -217,7 +217,7 @@ evol_fleet %>%
   scale_fill_wsj() +
   ylab("") + 
   guides(fill=guide_legend(title= ''))
-ggsave(filename = '6_2_fleet_biofuels.pdf', width = 15, height = 10, path = plot.dir)
+ggsave(filename = '6_2_fleet_biofuels.png', width = 15, height = 10, path = plot.dir)
 
 
 
@@ -240,7 +240,7 @@ x <- evol_fleet %>%
   ylab("") + 
   scale_x_continuous(breaks = c(2022,2030,2035,2040,2045,2050))  +
   guides(fill=guide_legend(title= ''))
-ggsave(filename = '6_3_fleet_biofuels_selectedYears.pdf', width = 15, height = 10, path = plot.dir)
+ggsave(filename = '6_3_fleet_biofuels_selectedYears.png', width = 15, height = 10, path = plot.dir)
 
 
 
@@ -262,7 +262,7 @@ evol_fleet %>%
   scale_x_continuous(breaks = c(2022,2030,2035,2040,2045,2050))  +
   scale_y_continuous(labels=scales::percent) +
   guides(fill=guide_legend(title= ''))
-ggsave(filename = '6_4_fleet_biofuels_selectedYears_Pct.pdf', width = 15, height = 10, path = plot.dir)
+ggsave(filename = '6_4_fleet_biofuels_selectedYears_Pct.png', width = 15, height = 10, path = plot.dir)
 
 
 

@@ -43,7 +43,7 @@ ev_sales2022 %>%
   geom_text(aes(y = label_y, label = Share_lbl), vjust = 1.5, colour = "white",size=7) +
   scale_y_continuous(labels=scales::percent,) +
   labs(caption = 'Source: IEA (2023), Anfavea (2022)')
-ggsave(filename = '7_1_ev_sales2022.pdf', width = 15, height = 10, path = plot.dir)
+ggsave(filename = '7_1_ev_sales2022.png', width = 15, height = 10, path = plot.dir)
 
 
 
@@ -66,7 +66,7 @@ regis %>%
         axis.title.y = element_blank()) +
   labs(caption = 'Source: Anfavea (2023)')+
   scale_y_continuous(labels=scales::label_percent(), breaks = c(-0.4, -0.2,-0.1,0,0.1,0.2,0.4))
-ggsave(filename = '7_2_brazil_growth_sales.pdf', width = 15, height = 10, path = plot.dir)
+ggsave(filename = '7_2_brazil_growth_sales.png', width = 15, height = 10, path = plot.dir)
 
 
 # Evolução Market Share no Brasil -----------------------------------------
@@ -89,7 +89,7 @@ shares_brasil %>%
   scale_x_continuous(breaks = c(2015:2022)) +
   theme(axis.title.x = element_blank()) +
   labs(caption = 'Source: Anfavea (2023)')
-ggsave(filename = '7_4_brazil_registration_2015_2022.pdf', width = 15, height = 10, path = plot.dir)
+ggsave(filename = '7_4_brazil_registration_2015_2022.png', width = 15, height = 10, path = plot.dir)
 
 
 shares_brasil %>%
@@ -110,7 +110,7 @@ shares_brasil %>%
   theme(axis.title.x = element_blank()) +
   geom_text(aes(y = label_y, label = Shr_lbl), vjust = 1.5, colour = "white",size=5) +
   labs(caption = 'Source: Anfavea (2023)')
-ggsave(filename = '7_5_brazil_EVregistration_2015_2022.pdf', width = 15, height = 10, path = plot.dir)
+ggsave(filename = '7_5_brazil_EVregistration_2015_2022.png', width = 15, height = 10, path = plot.dir)
 
 
 # Data vis: sucateamento --------------------------------------------------
@@ -123,7 +123,7 @@ exit %>%
   ylab("") + guides(fill=guide_legend(title= '')) +
   scale_y_continuous(labels=scales::percent) +
   labs(caption = 'Source: COPPE/UFRJ') + scale_x_continuous(name ="Age")
-ggsave(filename = '7_6_exit_example.pdf', width = 15, height = 10, path = plot.dir)
+ggsave(filename = '7_6_exit_example.png', width = 15, height = 10, path = plot.dir)
 
 
 # Fleet -------------------------------------------------------------------
@@ -153,6 +153,6 @@ fleet %>%
   scale_y_continuous(expand= c(0, 0), limits = c(0,50)) +
   theme(axis.title.x = element_blank()) +
   labs(caption = 'Source: Anfavea (2023)')
-ggsave(filename = '7_7_fleet_model.pdf', width = 15, height = 10, path = plot.dir)
+ggsave(filename = '7_7_fleet_model.png', width = 15, height = 10, path = plot.dir)
 
 
